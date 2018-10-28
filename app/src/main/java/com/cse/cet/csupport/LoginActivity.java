@@ -34,9 +34,11 @@ public class LoginActivity extends AppCompatActivity {
                             Toast.LENGTH_LONG).show();
                 }
                 else {
-                    if (pass.getText().toString().equals("ajoyforcs")) {
+                    if (pass.getText().toString().equals("Ajoypotti")) {
 
                         Toast.makeText(getApplicationContext(), "Successful Login!",
+                                Toast.LENGTH_LONG).show();
+                                Toast.makeText(getApplicationContext(), "Successful Failed!",
                                 Toast.LENGTH_LONG).show();
 
                         new Handler().postDelayed(new Runnable() {
